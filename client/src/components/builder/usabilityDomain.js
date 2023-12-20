@@ -26,6 +26,7 @@ import AddCircleIcon from "@mui/icons-material/AddCircle";
 import RemoveCircleIcon from "@mui/icons-material/RemoveCircle";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import Tooltip from "@mui/material/Tooltip";
+import SaveDraftButton from "./SaveDraftButton";
 
 export const  UsabilityDomain = ({onSave}) => {
   const dispatch = useDispatch();
@@ -81,6 +82,9 @@ export const  UsabilityDomain = ({onSave}) => {
                         type="button" 
                         onClick={() => arrayHelpers.push("")}>
                         <AddCircleIcon style={{ fontSize: 24}} />
+                      </Button>
+                      <Button>
+                        <SaveDraftButton />
                       </Button>
                     </div>
                   )}

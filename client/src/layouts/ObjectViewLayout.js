@@ -1,5 +1,3 @@
-// src/layouts/MainLayout/index.js
-
 import React from "react";
 import { Outlet } from "react-router-dom";
 import ObjectNavBar from "./ObjectNavBar";
